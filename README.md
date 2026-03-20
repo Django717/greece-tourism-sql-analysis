@@ -1,52 +1,77 @@
-# Greece Tourism SQL Analysis
+# Greece Tourism SQL Analysis 🇬🇷
 
 SQL portfolio project analyzing tourism trends in Greece from 2018 to 2023.
 
-## Project Overview
-This project explores tourism trends in Greece using SQL.  
-It focuses on visitor arrivals, tourism revenue, overnight stays, and market performance by country and region.
+---
 
-## Objectives
-- Analyze total tourist arrivals by country
-- Compare tourism revenue across source markets
-- identify yearly tourism trends
-- Measure revenue per tourist
-- Examine the impact of COVID-19 on tourism activity
+## 📌 Project Overview
+This project analyzes tourism activity in Greece using SQL, focusing on key performance indicators such as tourist arrivals, revenue generation, overnight stays, and market performance across countries and regions.
 
-## Dataset
-The dataset used in this project is a sample tourism dataset structured for portfolio purposes.
+The goal is to simulate a real-world data analysis scenario and extract meaningful business insights from structured data.
 
-Main fields included:
-- year
-- country
-- region
-- arrivals
-- nights_spent
-- revenue_million_eur
-- source
+---
 
-## SQL Files
-- `schema.sql` → creates the database and main table
-- `data.sql` → inserts sample tourism data
-- `analysis_queries.sql` → contains analytical SQL queries
+## 🎯 Business Questions
 
-## Example Business Questions
-1. Which country generated the highest number of arrivals?
-2. Which market produced the highest tourism revenue?
-3. How did tourism in Greece change year by year?
-4. What was the estimated revenue per tourist?
-5. How strong was the tourism decline during COVID-19?
+- Which countries contribute the most to tourism arrivals and revenue?
+- How did COVID-19 impact tourism activity in Greece?
+- Which regions attract the highest number of visitors?
+- How has tourism evolved year-over-year?
+- What is the average revenue per tourist by market?
 
-## Key Insights
-- Germany and the United Kingdom appear as the strongest tourism source markets in the sample dataset.
-- Tourism activity dropped sharply in 2020, reflecting the impact of COVID-19.
-- The data shows a gradual tourism recovery from 2021 onward.
-- Revenue and arrivals both increased significantly in 2022 and 2023.
+---
 
-## Tools Used
-- MySQL Workbench
-- SQL
-- GitHub
+## 📊 Key Insights
 
-## Author
-Created by [Your Name]
+- Germany and the United Kingdom consistently rank as the strongest tourism markets  
+- A significant decline is observed in 2020 due to COVID-19  
+- Tourism shows steady recovery starting from 2021  
+- Strong growth resumes in 2022–2023  
+- Revenue per tourist varies across source markets  
+
+---
+
+## 🗂 Dataset
+
+The dataset used in this project is a structured sample dataset designed for portfolio purposes.
+
+### Main fields:
+- `year`
+- `country`
+- `region`
+- `arrivals`
+- `nights_spent`
+- `revenue_million_eur`
+- `source`
+
+---
+
+## 🛠 SQL Structure
+
+The project is organized into three main SQL files:
+
+- `schema.sql` → Creates the database and table structure  
+- `data.sql` → Inserts sample tourism data  
+- `analysis_queries.sql` → Contains analytical SQL queries  
+
+---
+
+## ▶️ How to Run
+
+1. Run `schema.sql` to create the database and tables  
+2. Run `data.sql` to insert sample data  
+3. Run `analysis_queries.sql` to perform analysis  
+
+---
+
+## ⚙️ Tools Used
+
+- MySQL Workbench  
+- SQL  
+- GitHub  
+
+---
+
+## 👤 Author
+
+Created by Vasilios Posnakidis
