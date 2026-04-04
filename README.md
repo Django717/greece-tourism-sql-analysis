@@ -74,4 +74,4 @@ The project is organized into three main SQL files:
 
 ## 👤 Author
 
-Vaseilios Posnakidis
+Vasileios Posnakidis
